@@ -15,6 +15,7 @@ Source:		http://www.cpan.org/modules/by-module/File/%{module}-%{version}.tar.bz2
 Buildrequires:	perl-devel
 %endif
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module copies and moves directories recursively (or single files, well...
