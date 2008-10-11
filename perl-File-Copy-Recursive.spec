@@ -1,7 +1,7 @@
 %define	module	File-Copy-Recursive
 %define	name	perl-%{module}
-%define version 0.36
-%define release %mkrel 2
+%define version 0.37
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
