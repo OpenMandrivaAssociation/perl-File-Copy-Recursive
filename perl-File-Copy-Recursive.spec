@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	10
+Release:	11
 
 Summary:	Perl module for recursively copying files and directories
 License:	GPL+ or Artistic
