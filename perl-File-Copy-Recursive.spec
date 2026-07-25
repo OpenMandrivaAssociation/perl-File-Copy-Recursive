@@ -1,14 +1,14 @@
 %define	modname	File-Copy-Recursive
-%define modver	0.38
+%define modver	0.45
 
 Summary:	Perl module for recursively copying files and directories
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	21
+Version:	%{modver}
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/File/%{modname}-%{modver}.tar.bz2
+Url:		https://github.com/drmuey/p5-File-Copy-Recursive
+Source0:	https://cpan.metacpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test::More)
