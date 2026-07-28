@@ -4,7 +4,7 @@
 Summary:	Perl module for recursively copying files and directories
 Name:		perl-%{modname}
 Version:	%{modver}
-Release:	1
+Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/drmuey/p5-File-Copy-Recursive
@@ -13,6 +13,11 @@ BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
+BuildRequires: perl(Test::Deep)
+BuildRequires: perl(Test::File)
+BuildRequires: perl(Test::Warnings)
+BuildRequires: perl(Test::Fatal)
+BuildRequires: perl(Path::Tiny)
 
 %description
 This module copies and moves directories recursively (or single files, well...
